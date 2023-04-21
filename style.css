@@ -1,0 +1,103 @@
+.coolTitle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 40px;
+  /* transform: skewY(-10deg); */
+  /* letter-spacing: 4px; */
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+#first{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif ;
+  font-size: 20px;
+  /* transform: skewY(-10deg); */
+  word-spacing: 2px;
+  color: blue;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+ul{
+  text-transform: capitalize;
+}
+
+
+
+.pred1 , .pred2{
+  text-shadow: 1px 1px 1px orangered;
+  font-size: large;
+  color: black;
+}
+.deletable{
+  text-shadow: 1px 1px 1px blue;
+  font-size: large;
+  color: black;
+}
+
+input{
+  text-transform: capitalize;
+}
+
+body{
+  background-image: url(ultraHD.jpg);
+  height: auto; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.container{
+  display: grid;
+  justify-content: center;
+  text-align: center ;
+}
+
+.list{
+  background-image: url(PIzza\ div.jpg);
+  width: auto;
+  height: auto;
+  min-height: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.box{
+  text-align: left;
+  align-self: center;
+  padding: 5%;
+  margin: 5%;
+}
+
+.box2{
+  text-align: left;
+  align-self: center;
+  padding: 5%;
+  margin: 5%;
+  font-size: large;
+  color: black;
+}
+
+
+#userinput2{
+width: 100%;
+}
