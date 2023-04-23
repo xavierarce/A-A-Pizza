@@ -58,10 +58,11 @@ input{
 }
 
 body{
-  background-image: url(ultraHD.jpg);
-  height: auto; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background: url(ultraHD.jpg)  no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
